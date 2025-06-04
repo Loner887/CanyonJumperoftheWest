@@ -44,7 +44,7 @@ class GameOverScene: SKScene {
         chest.zPosition = 2
         addChild(chest)
 
-        let button = SKSpriteNode(imageNamed: "startButtonImage")
+        let button = SKSpriteNode(imageNamed: "menuButtonImage")
         button.name = "menuButton"
         button.position = CGPoint(x: size.width / 2, y: size.height * 0.3)
         button.zPosition = 2

@@ -51,10 +51,4 @@ class StartScene: SKScene {
             view?.presentScene(gameScene, transition: SKTransition.fade(withDuration: 1))        }
     }
     
-    private func openPrivacyPolicy() {
-        if let url = URL(string: "https://doc-hosting.flycricket.io/plink-o-hit-privacy-policy/03858165-dd9e-47bc-9dd3-619aff432f29/privacy") {
-            UIApplication.shared.open(url, options: [:], completionHandler: nil)
-        }
-    }
-    
 }
